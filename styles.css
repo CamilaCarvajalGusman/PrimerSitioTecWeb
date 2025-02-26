@@ -38,7 +38,19 @@ body {
     background-color: rgb(35, 210, 207);
     
 }
+.navegacion{
+    grid-column: 1 / 2;
+    padding: 15px;
+    background-color: rgb(35, 210, 207);
+    
+}
 #aside-right{
+    grid-column: 3 / 4;
+    padding: 15px;
+    background-color: rgb(255, 145, 189);
+    
+}
+.contenido-separado{
     grid-column: 3 / 4;
     padding: 15px;
     background-color: rgb(255, 145, 189);
