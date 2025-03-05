@@ -2,12 +2,9 @@
      color:white;
  }
  span{
-     color:greenyellow;
+     color:aqua;
  }
- #hola{
-     background-color: aqua;
- }
- div{
+ header,footer,section,article{
      border:2px;
      border-style: dotted;
  }
@@ -26,9 +23,9 @@ body {
     grid-template: auto 1fr auto / auto 1fr auto;
     font-family: "Open Sans", serif;
 }
-#header{
+#header, header{
     padding: 15px;
-    background-color: violet; 
+    background-color: greenyellow;
     
     grid-column: 1/4;
 }
@@ -56,13 +53,13 @@ body {
     background-color: rgb(255, 145, 189);
     
 }
-#main{
+#main, main{
     grid-column: 2 / 3;
     padding: 15px;
     background-color: rgba(153,127,40, 1);
     
 }
-#footer{
+#footer, footer{
     grid-column: 1 / 4;
     padding: 15px;
     background-color: rgba(71,109,147,1);
