@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecWeb March 10th</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: "Open Sans", serif;
+            background-color: beige;
+        }
+        div{
+            border-style: ridge;
+            border-color:violet;
+            margin-bottom: 20px;
+        }
+        h2{
+            padding-left: 4px;
+        }
+        h3{
+            padding-left: 8px;
+        }
+        .hcuatro{
+            padding-left: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manejo de Texto, by Camila Adriana Carvajal Gusman</h1>
+    <h2>Plantas</h2>
+    <h3>Ornamentales</h3>
+    <h4 class="hcuatro">Orquídeas</h4>
+    <h4 class="hcuatro">Rosas</h4>
+    <h4 class="hcuatro">Margaritas</h4>
+    <div>
+        <h4>Párrafos sin la etiqueta p</h4><br>
+        Las plantas ornamentales o plantas de ornato son las que cultivamos y cuidamos para embellecer espacios. Hay árboles y arbustos, césped y tapizantes, anuales, bulbosas, palmeras, helechos, trepadoras y acuáticas.
+        Algunos ejemplos son el tronco de Brasil, los helechos, el rosal, la begonia, la hortensia, etc. 
+    </div>
+    <div>
+        <h4>Párrafos con la etiqueta p</h4>
+        <p>Las plantas ornamentales o plantas de ornato son las que cultivamos y cuidamos para embellecer espacios. Hay árboles y arbustos, césped y tapizantes, anuales, bulbosas, palmeras, helechos, trepadoras y acuáticas.</p>
+        <p>Algunos ejemplos son el tronco de Brasil, los helechos, el rosal, la begonia, la hortensia, etc. </p>
+    </div>
+    <div >
+        <h4>Uso de la etiqueta br</h4>
+        <h5>La última Inocencia, de Alejandra Pizarnik</h5>
+        <p>Partir<br>
+            en cuerpo y alma <br>
+            partir.<br>
+        </p>
+        <p>
+            Partir<br>
+            deshacerse de las miradas<br>
+            piedras opresoras<br>
+            que duermen en la garganta.<br>
+        </p>
+        <p>
+            He de partir<br>
+            no más inercia bajo el sol<br>
+            no más sangre anonadada<br>
+            no más formar fila para morir.<br>
+        </p>
+        <p>
+            He de partir
+            Pero arremete, ¡viajera!
+        </p>
+    </div>
+    <div>
+        <h4>Uso correcto de hr, entre 2 párrafos con diferentes contenidos temáticos:</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti consequatur pariatur ipsum, harum veniam qui minus dolores modi alias, porro tenetur enim consequuntur adipisci laudantium maiores facilis optio soluta fuga.</p>
+        <hr>
+        <p>Los capibaras son los animales más geniales del planeta Tierra. Su actitud relajada y su naturaleza sociable los convierten en un símbolo de tranquilidad y armonía. Estas adorables criaturas, que son los roedores más grandes del mundo, no solo tienen una apariencia única, sino que también son conocidos por llevarse bien con casi todos los animales, desde aves hasta cocodrilos. Además, su amor por el agua los hace expertos nadadores, capaces de sumergirse y relajarse en ríos y lagos durante largas horas. Definitivamente, ¡los capibaras saben cómo disfrutar la vida al máximo!</p>
+    </div>
+    <div>
+        <h4>Uso de wbr</h4>
+        <p> Aquel músculo en el cuello, que se origina en el esternón, la clavícula y el proceso mastoides del hueso temporal es el esternocleido<wbr>mastoideo</p>
+    </div>
+    <div>
+        <h4>Superíndice</h4>
+        <p>Fórmula del crecimiento exponencial respecto al tiempo: C(t)=Ce<sup>kt</sup></p>
+    </div>
+    <div>
+        <h4>Subíndice</h4>
+        <p>Si H<sub>2</sub>O es agua entonces, ¿H<sub>2</sub>O+CO+CO es agua de coco?</p>
+    </div>
+    <div>
+        <h4>Etiqueta STRONG</h4>
+        <p>No olvides que mañana tienes <strong>EXAMEN</strong> de progra móvil</p>
+    </div>
+    <div>
+        <h4>Énfasis</h4>
+        <p>De hecho, <em>su enfoque</em> ha revolucionado la manera en que abordamos el problema.</p>
+        <p>De hecho, su enfoque ha revolucionado <em>la manera</em> en que abordamos el problema.</p>
+    </div>
+    <div>
+        <h4>Elemento mark</h4>
+        <p>Según la corriente epistemológica, conocida como "la nueva filosofía de la ciencia", <mark>Marx utiliza el método abstracto-deductivo</mark>, donde el principio de la abstracción impone primeramente definir o seleccionar sobre qué se ha de abstraer.</p>
+    </div>
+    <div>
+        <h4>Citas en Línea</h4>
+        <p>A pesar de iniciativas legislativas como la <q cite="https://www.lexivox.org/norms/BO-L-N977.html">Ley N° 977 para la inserción laboral de personas con discapacidad</q>, persiste una brecha en el desarrollo de herramientas tecnológicas destinadas a personas neurodivergentes. Instituciones como ASPAUT enfatizan que el acceso a una tecnología inclusiva es crucial para fomentar oportunidades equitativas, destacando cómo la ausencia de estas plataformas perpetúa la exclusión en entornos laborales y sociales.</p>
+    </div>
+    <div>
+        <h4>Citas en bloque</h4>
+        <p>El hombre ha nacido libre, y en todas partes se encuentra encadenado. Hay quien se cree señor de los demás, pero no deja de ser más esclavo que ellos.</p>
+        <blockquote>
+            <figcaption>Jean-Jacques Rousseau, "<cite>El Contrato Social</cite>"</figcaption>
+        </blockquote>
+    </div>
+</body>
+</html>
