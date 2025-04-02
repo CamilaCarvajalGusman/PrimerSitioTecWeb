@@ -1,0 +1,58 @@
+/* 1id 2clases 1selector de elemento */
+#unico.foo.bar{
+    color:green;
+}
+/* 1id 1clase 1selector de elemento */
+#unico.foo{
+    color:red!important;
+}
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: black;
+    font-weight: bold;
+}
+.rectangulo{
+    width:450px;
+    height: 250px;
+    background-color: rebeccapurple;
+}
+.caja{
+    width: 25%;
+    height: 25%;
+    background-color: aquamarine;
+}
+.caja_interior{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+   
+}
+.caja_interior p{
+    font-size: 2rem;
+}
+*{
+    margin:0;
+}
+.modelo_cajas{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    padding: 25px;
+    border-top:30px solid greenyellow;
+    border-bottom:30px dashed greenyellow;
+    border-left:30px solid greenyellow;
+    border-right:30px solid greenyellow;
+    display: flex;
+    justify-content: space-between;
+}
+.uno, .dos{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    
+}
