@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS april 2nd</title>
+    <style>
+        p {
+            background-color: cornflowerblue;
+            font-size: larger;
+        }
+    </style>
+    <link href="miPrimerCSS.css" type="text/css" rel="stylesheet">
+    <link href="estilos.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- pésima práctica: estilos en el elemento -->
+    <h1>Mi segunda clase de CSS</h1>
+    <h2>Camila Adriana Carvajal Gusman</h2>
+
+    <!-- <div style="background-color:lightcoral; color: white;">
+        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id praesentium eius eum eaque veritatis neque odio
+            error nostrum suscipit numquam. Tenetur debitis aspernatur vitae adipisci, ullam itaque sed unde nam!</h4>
+    </div>
+    <p>Tener sueño no es motivo de alarma porque casi siempre es causado por malos hábitos. Sin embargo, también puede
+        ser un síntoma del comienzo de algunas enfermedades.</p>
+    <div class="caja">
+        caja 1
+    </div>
+    <div class="otra_caja">
+        caja 2
+    </div>
+    <div class="unacajamasxd">
+        caja 3
+    </div>
+    <div class="capibara">
+        capibara
+    </div>
+    <div id="soy_unique">
+
+    </div>
+    <a href="">Enlace 1</a>
+    <a href="">Enlace 2</a>
+    <a href="">Enlace 3</a>
+    <a title="importante" href="">Enlace 4</a>
+    <button>Click</button>
+    <input type="text" disabled>
+    <p>Seleccionan parte de un elemento en lugar del elemento mismo. Los pseudo-elementos se añaden a los selectores y permiten añadir estilos a una parte concreta de los elementos seleccionados.</p>
+    <div class="capibara1"></div>
+    <div class="capibara2"></div>
+    <div class="capibara3"></div>
+    <div class="padre">
+        <span>Hola</span>
+        <div>Mundo</div>
+        <span>Cruel</span>
+    </div>
+    <hr>
+     -->
+    <h3>Especificidad e !important</h3>
+    <p id="unico" class="foo bar baz">En la ingeniería, los canales hidráulicos son importantes por su capacidad para generar energía hidroeléctrica. Esto se logra mediante la construcción de presas y la generación de energía eléctrica a partir de la caída del agua.</p>
+    <h3>herencia</h3>
+    <ul class="main">
+        <li>Item One</li>
+        <li>Item Two
+            <ul>
+                <li>2.1</li>
+                <li>2.2</li>
+            </ul>
+        </li>
+        <li>Item Three
+            <ul class="special">
+                <li>3.1
+                    <ul>
+                        <li>3.1.1</li>
+                        <li>3.1.2</li>
+                    </ul>
+                </li>
+                <li>3.2</li>
+            </ul>
+        </li>
+    </ul>
+    <div class="rectangulo"></div>
+    <div class="caja">
+        <div class="caja_interior">
+            <p>UCB</p>
+        </div>
+    </div>
+    <div class="modelo_cajas">
+        <div class="uno"></div>
+        <div class="dos"></div>
+    </div>
+</body>
+</html>
