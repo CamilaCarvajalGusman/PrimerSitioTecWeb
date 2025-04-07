@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 de abril CSS</title>
+   <link href="estilos_2abril.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>Mi tercera clase de estilos CSS</h1>
+    <h2>Camila Adriana Carvajal Gusman </h2>
+    <div class="contenedor">
+        <div class="caja1">1</div>
+        <div class="caja2">2</div>
+        <div class="caja3">3</div>
+        <div class="caja4">4</div>
+        <div class="caja5">5</div>
+        <div class="caja6">6</div>
+    </div>
+</body>
+</html>
